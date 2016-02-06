@@ -1,0 +1,117 @@
+body {
+  background: #fff;
+  color: #555248;  
+  font-family: Courier;
+}
+
+a {
+  color: #555248;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 30px 0 0 0;
+}
+
+a img {
+  border: 0;
+}
+
+.vimeo {
+  overflow: hidden;
+  padding-top: 10px;
+  width: 600px;
+  height: 375px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.try {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.item {
+  width: 170px;
+  margin-right: 45px;
+  float: left;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.item.last {
+  margin-right: 0;
+}
+
+.item h2 {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+p.text {
+  font-size: 14px;
+  padding-top: 10px;
+  clear: both;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+p.text span {
+  font-size: 18px;
+}
+
+div.social {
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 130px;
+  margin-bottom: 60px;
+  overflow: hidden;
+  clear: both;
+}
+
+div.social a {
+  float: left;
+  height: 50px;
+  margin-right: 20px;
+  text-indent: -9999px;
+}
+
+div.social a.myspace {
+  background: transparent url(../art/myspace.png) no-repeat left center;
+  width: 30px;
+}
+
+div.social a.facebook {
+  background: transparent url(../art/facebook.jpg) no-repeat left center;
+  width: 30px;
+  margin: 0;
+}
+
+div.social a.lastfm {
+  background: transparent url(../art/lastfm.png) no-repeat left center;
+  width: 30px;
+}
+
+p.onlymac {
+  font-size: 12px;
+  text-align: center;
+  color: #888;
+  font-weight: bold;
+}
+
+p.onlymac span {
+  color: #aaa;
+  font-style: italic;
+  font-weight: normal;
+}
